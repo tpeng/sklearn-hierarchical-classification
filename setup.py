@@ -20,9 +20,9 @@ setup(
     zip_safe=False,
     install_requires=[
         "networkx==2.2",
-        "numpy==1.16.6",
+        "numpy==1.19.*",
         "scikit-learn==0.19.1",
-        "scipy==0.19.1",
+        "scipy==1.1.0",
     ],
     setup_requires=[
         "nose>=1.3.7",
